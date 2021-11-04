@@ -58,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
                         (escolhaUsuario.equals("papel") && escolhaApp.equals("pedra")) ||
                         (escolhaUsuario.equals("tesoura") && escolhaApp.equals("papel"))
         ){
-            //Usuario ganhador
+            //Usúario ganhador
             textoResultado.setText("Você ganhou :) ");
         }else {//Empate
             textoResultado.setText("Empatamos ;) ");
